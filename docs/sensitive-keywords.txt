@@ -1,0 +1,20 @@
+# Add one keyword or regex per line.
+# This file is intentionally customizable per team/project.
+
+# Common secrets
+api_key
+access_token
+refresh_token
+authorization
+bearer
+secret
+password
+private key
+
+# Data identifiers
+customer_id
+account_id
+tenant_id
+
+# Add your own internal sensitive terms below:
+# example_internal_codename

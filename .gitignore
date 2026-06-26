@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Logs and temp
+*.log
+*.tmp
+tmp/
+
+# Generated workspace content (keep folder docs tracked)
+raw/**
+wiki/**
+!raw/README.md
+!wiki/README.md
