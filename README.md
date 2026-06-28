@@ -33,11 +33,12 @@ Users do not need to manually clone this repository.
 1. Copy the GitHub repository URL.
 2. Open a coding agent (Cursor, Claude, OpenCode, etc.).
 3. Paste the URL and ask the agent to use this repository as a skill source.
+```https://github.com/Siping-Liu/product-delivery-workbench```
 4. The agent should:
-   - Acquire repository files in runtime context (clone/fetch)
-   - Read `README.md` and root `SKILL.md`
-   - Select a domain and load that domain `SKILL.md`
-   - Run workflows defined by the selected domain
+  - Acquire repository files in runtime context (clone/fetch)
+  - Read `README.md` and root `SKILL.md`
+  - Select a domain and load that domain `SKILL.md`
+  - Run workflows defined by the selected domain
 
 ## Repository Layout
 
