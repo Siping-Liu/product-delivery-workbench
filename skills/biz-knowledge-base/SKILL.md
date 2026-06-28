@@ -29,6 +29,7 @@ It follows the Karpathy LLM Wiki pattern and extends project-level rules from ro
 - `raw/` is source-of-truth input. Treat it as read-only.
 - `wiki/` is the compiled knowledge layer that you maintain.
 - Do not silently overwrite contradictions; preserve competing claims and mark conflicts explicitly.
+- Jira remote access used by this domain must follow `connectors/jira/SKILL.md`.
 
 ### Wiki Maintenance Contract
 

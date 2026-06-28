@@ -43,10 +43,17 @@ Rules:
 If the user provides a Jira issue key or Jira link, fetch the Jira content and ingest it.
 
 Rules:
+- Use `connectors/jira/SKILL.md` as the single Jira access contract.
+- Detect backend using Jira connector capability order: `MCP -> CLI -> REST -> fallback`.
 - Treat Jira items as structured business requirements.
 - Multiple stories may map to one business feature.
 - Normalize into business concepts (not Jira-native structure).
 - Jira is input, wiki is output.
+
+Supported Jira ingest requests include:
+- ingest one Jira issue by key/link
+- ingest a JQL result set
+- ingest all stories under one Epic key (retrieve story list first, then ingest)
 
 ### 3) Confluence Sources (Remote)
 
@@ -71,6 +78,7 @@ Rules:
 ### 5) Fallback Rule
 
 If remote retrieval fails (authentication, network, or tooling), report the failure reason clearly, then request the minimum manual input needed (export file, page markdown, or link plus pasted content).
+For Jira specifically, follow fallback behavior from `connectors/jira/SKILL.md`.
 
 ## Ingestion Log
 

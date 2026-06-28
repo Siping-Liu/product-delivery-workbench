@@ -18,6 +18,7 @@ It applies across all domains, including `biz-knowledge-base` and `requirements`
 3. Flag conflicts explicitly; do not silently merge contradictions.
 4. Keep naming and path conventions stable for reliable routing.
 5. Keep user-facing docs concise and English-only.
+6. For Jira read/write access in any domain workflow, use `connectors/jira/SKILL.md` as the shared connector contract.
 
 ## Domain Delegation
 
@@ -34,6 +35,7 @@ When an agent loads this repository as a skill source:
 2. Route by user intent:
    - Biz knowledge maintenance or governance -> `skills/biz-knowledge-base/SKILL.md`
    - Requirement analysis or story/card work -> `skills/requirements/SKILL.md`
+   - Jira access (ingest, read, create, update, transition, comment) -> `connectors/jira/SKILL.md`
 3. If intent is unclear, ask the user before routing. Use this decision question:
    - "Do you want to maintain business knowledge, do requirements analysis, or just ask a general AI question?"
 4. If the request is unrelated to project skills, answer as a normal AI assistant without forcing skill routing.
