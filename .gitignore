@@ -7,5 +7,4 @@
 tmp/
 
 # Generated workspace content (keep folder docs tracked)
-raw/**
 !raw/README.md
