@@ -5,3 +5,5 @@ Store validated business context here:
 - business rules
 - process flows
 - decisions and assumptions
+
+Start from [[index]] for compiled Axtra Vector knowledge.

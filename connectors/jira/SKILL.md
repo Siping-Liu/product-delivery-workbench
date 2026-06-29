@@ -186,4 +186,3 @@ If auth/permission fails:
 - Never update description/summary without showing current vs proposed content.
 - Never execute bulk or repeated writes without explicit user approval.
 - Never hide auth/permission errors.
-
