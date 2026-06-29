@@ -8,6 +8,4 @@ tmp/
 
 # Generated workspace content (keep folder docs tracked)
 raw/**
-wiki/**
 !raw/README.md
-!wiki/README.md
